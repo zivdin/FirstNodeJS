@@ -1,5 +1,3 @@
 
-# FirstNodeJS
-# 
-# Simple client based NodeJS http server
-#
+# FirstNodeJS 
+Simple client based NodeJS http server
