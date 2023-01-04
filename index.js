@@ -11,8 +11,8 @@ app.get('/about', (req, res) => {        //get requests to the root ("/") will r
     res.sendFile('about.html', {root: __dirname});      //server responds by sending the index.html file to the client's browser
                                                           //the .sendFile method needs the absolute path to the file, see: https://expressjs.com/en/4x/api.html#res.sendFile 
 });
-app.get('/sign-up', (req, res) => {        //get requests to the root ("/") will route here
-    res.sendFile('signup.html', {root: __dirname});      //server responds by sending the index.html file to the client's browser
+app.get('/sign-in', (req, res) => {        //get requests to the root ("/") will route here
+    res.sendFile('signin.html', {root: __dirname});      //server responds by sending the index.html file to the client's browser
                                                           //the .sendFile method needs the absolute path to the file, see: https://expressjs.com/en/4x/api.html#res.sendFile 
 });
 
